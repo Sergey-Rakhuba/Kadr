@@ -205,3 +205,150 @@
 .one-location__main .one-location__container .swiper {
   padding: 60px 0 100px 0;
 }
+.one-location__main .one-location__container .main__container {
+  border-top: 1px solid rgba(28, 29, 30, 0.2352941176);
+}
+.one-location__main .one-location__container .main__container .main__section5-flex-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 218px 10px 0 5px;
+}
+.one-location__main .one-location__container .main__container .main__section5-flex-box .main__section5-tab-calendar .tabs__items {
+  display: flex;
+  flex-direction: row;
+  padding-top: 18px;
+}
+.one-location__main .one-location__container .main__container .main__section5-flex-box .main__section5-tab-calendar .tabs__items .tabs__item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #171A1E;
+  opacity: 0.7;
+  padding-left: 30px;
+}
+.one-location__main .one-location__container .main__container .main__section5-flex-box .main__section5-tab-calendar .tabs__items .tabs__item:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+.one-location__main .one-location__container .tabs__block {
+  margin-top: 60px;
+  display: none;
+}
+.one-location__main .one-location__container .tabs__block .main__section5-card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar-7deys,
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar {
+  background: rgba(0, 0, 0, 0.0235294118);
+  background: #FFFFFF;
+  padding: 10px 35px 20px 44px;
+  border: 1px solid #000000;
+  overflow: hidden;
+}
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar-7deys .card-box,
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar .card-box {
+  display: flex;
+  flex-direction: row;
+  padding-top: 16px;
+}
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar-7deys .card-box img,
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar .card-box img {
+  padding-top: 4px;
+  width: 28px;
+  height: 26px;
+  margin-right: 4.7px;
+}
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar:first-child {
+  margin-right: 32px;
+}
+.one-location__main .one-location__container .tabs__block .main__section5-card-container .card-calendar-7deys {
+  width: 100%;
+}
+.one-location__main .one-location__container .tabs__block:target {
+  display: block;
+}
+.one-location__main .one-location__container .card-main {
+  margin-top: 24px;
+  padding-left: 7px;
+}
+.one-location__main .one-location__container .card-main ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.one-location__main .one-location__container .card-main ul li {
+  margin-bottom: 12px;
+  border-top: 2px solid rgba(8, 8, 8, 0.3176470588);
+  padding-top: 26px;
+}
+.one-location__main .one-location__container .card-main ul li p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.4;
+}
+.one-location__main .one-location__container .card-main ul li ul {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+.one-location__main .one-location__container .card-main ul li ul li {
+  width: 151px;
+  border: none;
+  padding-top: 0px;
+}
+.one-location__main .one-location__container .card-main ul li ul li::hover {
+  background: #e41111;
+  opacity: 0.2;
+}
+.one-location__main .one-location__container .card-main ul li ul li:first-child {
+  padding-top: 26px;
+}
+.one-location__main .one-location__container .card-main ul li ul li p {
+  padding-top: 8px;
+}
+.one-location__main .one-location__container .card-main ul li:hover {
+  border-top: 2px solid #080808;
+}
+
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi {
+  margin-top: 62px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi .tab__row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi .tab__row .tab__column {
+  margin-bottom: 34px;
+}
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi .tab__row .tab__column a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.one-location__main .one-location__container .one-location__section .services__oll-poslugi .tab__row .tab__column a h4 {
+  margin-left: 16px;
+  align-items: center;
+  max-width: 12vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #171A1E;
+}
